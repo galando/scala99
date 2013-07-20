@@ -10,5 +10,19 @@ package main.scala
  */
 object Solutions1To10 {
 
-  def last(list: List[Int]) : Int = list.last
+  def last(list: List[Any]) : Any = list match {
+    case List() => Nil
+    case x::Nil => x
+    case _::xs => last(xs)
+  }
+
+  def penultimate(list: List[Any]) : Any = list match {
+    case List() => Nil
+    case x::_::Nil => x
+    case _::xs => penultimate(xs)
+  }
+
+  def main(args: Array[String]) = {
+    println(Solutions1To10.penultimate(List(1, 1, 2, 3, 5, 8)))
+  }
 }

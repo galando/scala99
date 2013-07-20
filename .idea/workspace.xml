@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5dd93046-3b19-495e-9a94-66b187ab6514" name="Default" comment="" />
+    <list default="true" id="5dd93046-3b19-495e-9a94-66b187ab6514" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Solutions1To10.scala" afterPath="$PROJECT_DIR$/src/main/scala/Solutions1To10.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/Tests1To10.scala" afterPath="$PROJECT_DIR$/src/test/scala/Tests1To10.scala" />
+    </list>
     <ignored path="scala99.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="5dd93046-3b19-495e-9a94-66b187ab6514" time="1374332669544" ignored="false" />
     <file path="/pom.xml" changelist="5dd93046-3b19-495e-9a94-66b187ab6514" time="1374340988606" ignored="false" />
-    <file path="/Solutions1To10.scala" changelist="5dd93046-3b19-495e-9a94-66b187ab6514" time="1374341340575" ignored="false" />
+    <file path="/Solutions1To10.scala" changelist="5dd93046-3b19-495e-9a94-66b187ab6514" time="1374346312990" ignored="false" />
     <file path="$PROJECT_DIR$/../gal/pom.xml" changelist="5dd93046-3b19-495e-9a94-66b187ab6514" time="1374330750269" ignored="false" />
-    <file path="/Tests1To10.scala" changelist="5dd93046-3b19-495e-9a94-66b187ab6514" time="1374341158514" ignored="false" />
+    <file path="/Tests1To10.scala" changelist="5dd93046-3b19-495e-9a94-66b187ab6514" time="1374346564665" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,23 +63,6 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/test/scala/Tests1To10.scala" line="15" class="Tests1To10" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -86,19 +72,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Solutions1To10.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Solutions1To10.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Solutions1To10.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="6" selection-start="182" selection-end="182" vertical-scroll-proportion="0.45592704">
+            <state line="24" column="51" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tests1To10.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Tests1To10.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/Tests1To10.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="29" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
+            <state line="16" column="26" selection-start="504" selection-end="504" vertical-scroll-proportion="0.103896104">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -125,8 +111,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/scala/Tests1To10.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Solutions1To10.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/Tests1To10.scala" />
       </list>
     </option>
   </component>
@@ -323,40 +309,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
   </component>
-  <component name="RunManager" selected="ScalaTest.Tests1To10.P01 -- last element of list">
-    <configuration default="false" name="scala99 [clean,install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="clean" />
-                <option value="install" />
-              </list>
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.Tests1To10.P01 should returns last element of list">
     <configuration default="false" name="Solutions1To10" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="main.scala.Solutions1To10" />
       <option name="VM_PARAMETERS" />
@@ -391,6 +344,51 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tests1To10.P02 -- penultimate element of list" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="scala99" />
+      <setting name="path" value="Tests1To10" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="P02 -- penultimate element of list" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tests1To10" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="scala99" />
+      <setting name="path" value="Tests1To10" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tests1To10.P01 should returns last element of list" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="scala99" />
+      <setting name="path" value="Tests1To10" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="P01 should returns last element of list" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -535,17 +533,21 @@
         <option name="RunConfigurationTask" enabled="true" run_configuration_name="scala99 [clean,install]" run_configuration_type="MavenRunConfiguration" />
       </method>
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Scala Console.Scala99" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.scala99 [clean,install]" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Solutions1To10" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.Tests1To10.P01 -- last element of list" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Solutions1To10" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.Tests1To10.P01 -- last element of list" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.Tests1To10.P02 -- penultimate element of list" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.Tests1To10" />
+      <item index="5" class="java.lang.String" itemvalue="ScalaTest.Tests1To10.P01 should returns last element of list" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Tests1To10.P01 -- last element of list" />
-        <item index="1" class="java.lang.String" itemvalue="Maven.scala99 [clean,install]" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Tests1To10.P01 should returns last element of list" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.Tests1To10.P02 -- penultimate element of list" />
         <item index="2" class="java.lang.String" itemvalue="Application.Solutions1To10" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.Tests1To10" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.Tests1To10.P01 -- last element of list" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -563,13 +565,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32651514" sideWeight="0.6706081" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924242" sideWeight="0.60169494" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3983051" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32575756" sideWeight="0.6694915" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924242" sideWeight="0.7186441" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3983051" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6013514" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33050847" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28135592" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -701,19 +703,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/Tests1To10.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Solutions1To10.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state line="24" column="51" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Solutions1To10.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/Tests1To10.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="182" selection-end="182" vertical-scroll-proportion="0.45592704">
-          <folding />
+        <state line="16" column="26" selection-start="504" selection-end="504" vertical-scroll-proportion="0.103896104">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
