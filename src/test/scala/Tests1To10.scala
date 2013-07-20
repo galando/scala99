@@ -1,3 +1,4 @@
+import java.util.NoSuchElementException
 import main.scala.Solutions1To10
 import org.scalatest.matchers.ShouldMatchers
 import org.scalatest.{FlatSpec, FunSuite}
@@ -19,43 +20,48 @@ class Tests1To10 extends FlatSpec with ShouldMatchers {
   }
 
   "P02" should "penultimate element of list" in {
-    Solutions1To10.penultimate(List(1, 1, 2, 3, 5, 8)) should equal (5)
+    Solutions1To10.penultimate(List(1, 1, 2, 3, 5, 8)) should equal(5)
   }
 
-  /*   test("P03 -- nth element of list") {
-       assert(nth(0, List(1, 1, 2, 3, 5, 8)) == 1)
-       assert(nth(1, List(1, 1, 2, 3, 5, 8)) == 1)
-       assert(nth(2, List(1, 1, 2, 3, 5, 8)) == 2)
-     }
+  "P03" should "nth element of list" in {
+    Solutions1To10.nth(0, List(1, 1, 2, 3, 5, 8)) should equal(1)
+    Solutions1To10.nth(1, List(1, 1, 2, 3, 5, 8)) should equal(1)
+    Solutions1To10.nth(2, List(1, 1, 2, 3, 5, 8)) should equal(2)
+  }
+  it should "throw NoSuchElementException if n > num of elements in list" in {
+    evaluating {
+      Solutions1To10.nth(2, List(1, 1))
+    } should produce[NoSuchElementException]
+  }
 
-     test("P04 -- length of a list") {
-       assert(length(List(1, 1, 2, 3, 5, 8)) == 6)
-     }
+  "P04" should "length of a list" in {
+    Solutions1To10.length(List(1, 1, 2, 3, 5, 8)) should equal(6)
+  }
 
-     test("P05 -- reverse a list") {
-       assert(reverse(List(1, 1, 2, 3, 5, 8)).equals(List(8, 5, 3, 2, 1, 1)))
-     }
+  "P05" should "reverse a list" in {
+    Solutions1To10.reverse(List(1, 1, 2, 3, 5, 8)) should equal(List(8, 5, 3, 2, 1, 1))
+  }
 
-     test("P06 -- isPalindrome ") {
-       assert(isPalindrome(List(1, 2, 3, 2, 1)) == true)
-       assert(isPalindrome(List(1, 2, 3, 2, 2)) == false)
-       assert(isPalindrome(List(1, 2, 2, 1)) == true)
-       assert(isPalindrome(List(1, 2, 1, 1)) == false)
-     }
+  /*test("P06 -- isPalindrome ") {
+    assert(isPalindrome(List(1, 2, 3, 2, 1)) == true)
+    assert(isPalindrome(List(1, 2, 3, 2, 2)) == false)
+    assert(isPalindrome(List(1, 2, 2, 1)) == true)
+    assert(isPalindrome(List(1, 2, 1, 1)) == false)
+  }
 
-     test("P07 -- recursive flatten"){
-       assert(flatten(List(List(1, 1), 2, List(3, List(5, 8)))) == List(1, 1, 2, 3, 5, 8))
-     }
+  test("P07 -- recursive flatten") {
+    assert(flatten(List(List(1, 1), 2, List(3, List(5, 8)))) == List(1, 1, 2, 3, 5, 8))
+  }
 
-     test("P08 -- compress"){
-       assert(compress(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) == List('a, 'b, 'c, 'a, 'd, 'e))
-     }
+  test("P08 -- compress") {
+    assert(compress(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) == List('a, 'b, 'c, 'a, 'd, 'e))
+  }
 
-     test("P09 -- pack"){
-       assert(pack(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) == List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e)))
-     }
+  test("P09 -- pack") {
+    assert(pack(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) == List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e)))
+  }
 
-     test("P10 -- encode"){
-       assert(encode(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) == List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e)))
-     }*/
+  test("P10 -- encode") {
+    assert(encode(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) == List((4, 'a), (1, 'b), (2, 'c), (2, 'a), (1, 'd), (4, 'e)))
+  } */
 }

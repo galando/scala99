@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite 
-errors="0" failures="0" hostname="Galaptop" name="Tests1To10" tests="2" time="0.045" timestamp="2013-07-20T21:57:24">
+errors="0" failures="0" hostname="Galaptop" name="Tests1To10" tests="6" time="0.034" timestamp="2013-07-20T23:16:35">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment">
     </property>
@@ -87,10 +87,22 @@ errors="0" failures="0" hostname="Galaptop" name="Tests1To10" tests="2" time="0.
     <property name="sun.cpu.isalist" value=""> </property>
   </properties>
   <testcase 
-  name="P01 should returns last element of list" classname="Tests1To10" time="0.018">
+  name="P01 should returns last element of list" classname="Tests1To10" time="0.012">
 </testcase>
   <testcase 
-  name="P02 should penultimate element of list" classname="Tests1To10" time="0.001">
+  name="P02 should penultimate element of list" classname="Tests1To10" time="0.0">
+</testcase>
+  <testcase 
+  name="P03 should nth element of list" classname="Tests1To10" time="0.001">
+</testcase>
+  <testcase 
+  name="P03 should throw NoSuchElementException if n &gt; num of elements in list" classname="Tests1To10" time="0.002">
+</testcase>
+  <testcase 
+  name="P04 should length of a list" classname="Tests1To10" time="0.0">
+</testcase>
+  <testcase 
+  name="P05 should reverse a list" classname="Tests1To10" time="0.001">
 </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
