@@ -43,4 +43,23 @@ object Solutions1To10 {
     case Nil => Nil
     case x :: xs => reverse(xs) ::: List(x)
   }
+
+  @tailrec
+  def isPalindrome[T](list: List[T]) : Boolean = list match {
+    case x::Nil => true
+    case x::xs => if (x == last(xs)) isPalindrome(reverse(xs).tail) else false
+    case Nil => true
+      // other solution => list == list.reverse
+  }
+  def flatten(list: List[Any]) : List[Any] = {
+    /*if (list.size > 1) {
+      for (t <- list) yield t match {
+        case x::xs => x::flatten(xs)
+        case _ => _
+      }
+    } else {
+      list
+    }*/
+    list
+  }
 }

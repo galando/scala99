@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite 
-errors="0" failures="0" hostname="Galaptop" name="Tests1To10" tests="6" time="0.034" timestamp="2013-07-20T23:16:35">
+errors="0" failures="0" hostname="vid-galn-lin" name="Tests1To10" tests="7" time="0.088" timestamp="2013-07-25T00:41:20">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment">
     </property>
@@ -46,7 +46,7 @@ errors="0" failures="0" hostname="Galaptop" name="Tests1To10" tests="6" time="0.
     <property 
     name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers">
 </property>
-    <property name="os.version" value="3.8.0-25-generic"> </property>
+    <property name="os.version" value="3.8.0-26-generic"> </property>
     <property name="user.home" value="/home/galando"> </property>
     <property name="user.timezone" value=""> </property>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob">
@@ -90,19 +90,22 @@ errors="0" failures="0" hostname="Galaptop" name="Tests1To10" tests="6" time="0.
   name="P01 should returns last element of list" classname="Tests1To10" time="0.012">
 </testcase>
   <testcase 
-  name="P02 should penultimate element of list" classname="Tests1To10" time="0.0">
+  name="P02 should penultimate element of list" classname="Tests1To10" time="0.001">
 </testcase>
   <testcase 
   name="P03 should nth element of list" classname="Tests1To10" time="0.001">
 </testcase>
   <testcase 
-  name="P03 should throw NoSuchElementException if n &gt; num of elements in list" classname="Tests1To10" time="0.002">
+  name="P03 should throw NoSuchElementException if n &gt; num of elements in list" classname="Tests1To10" time="0.003">
 </testcase>
   <testcase 
   name="P04 should length of a list" classname="Tests1To10" time="0.0">
 </testcase>
   <testcase 
-  name="P05 should reverse a list" classname="Tests1To10" time="0.001">
+  name="P05 should reverse a list" classname="Tests1To10" time="0.002">
+</testcase>
+  <testcase 
+  name="P06 should isPalindrome" classname="Tests1To10" time="0.031">
 </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

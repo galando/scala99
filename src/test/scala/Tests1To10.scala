@@ -42,18 +42,18 @@ class Tests1To10 extends FlatSpec with ShouldMatchers {
     Solutions1To10.reverse(List(1, 1, 2, 3, 5, 8)) should equal(List(8, 5, 3, 2, 1, 1))
   }
 
-  /*test("P06 -- isPalindrome ") {
-    assert(isPalindrome(List(1, 2, 3, 2, 1)) == true)
-    assert(isPalindrome(List(1, 2, 3, 2, 2)) == false)
-    assert(isPalindrome(List(1, 2, 2, 1)) == true)
-    assert(isPalindrome(List(1, 2, 1, 1)) == false)
+  "P06" should "isPalindrome" in {
+    Solutions1To10.isPalindrome(List(1, 2, 3, 2, 1)) should equal (true)
+    Solutions1To10.isPalindrome(List(1, 2, 3, 2, 2)) should equal (false)
+    Solutions1To10.isPalindrome(List(1, 2, 2, 1)) should equal (true)
+    Solutions1To10.isPalindrome(List(1, 2, 1, 1)) should equal (false)
   }
 
-  test("P07 -- recursive flatten") {
-    assert(flatten(List(List(1, 1), 2, List(3, List(5, 8)))) == List(1, 1, 2, 3, 5, 8))
+  "P07" should "recursive flatten" in {
+    Solutions1To10.flatten(List(List(1, 1), 2, List(3, List(5, 8)))) should equal (List(1, 1, 2, 3, 5, 8))
   }
 
-  test("P08 -- compress") {
+  /*test("P08 -- compress") {
     assert(compress(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) == List('a, 'b, 'c, 'a, 'd, 'e))
   }
 

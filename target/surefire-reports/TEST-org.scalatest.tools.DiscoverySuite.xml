@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite 
-errors="0" failures="0" hostname="Galaptop" name="org.scalatest.tools.DiscoverySuite" tests="0" time="0.039" timestamp="2013-07-20T23:16:35">
+errors="0" failures="0" hostname="vid-galn-lin" name="org.scalatest.tools.DiscoverySuite" tests="0" time="0.106" timestamp="2013-07-25T00:41:20">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment">
     </property>
@@ -46,7 +46,7 @@ errors="0" failures="0" hostname="Galaptop" name="org.scalatest.tools.DiscoveryS
     <property 
     name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers">
 </property>
-    <property name="os.version" value="3.8.0-25-generic"> </property>
+    <property name="os.version" value="3.8.0-26-generic"> </property>
     <property name="user.home" value="/home/galando"> </property>
     <property name="user.timezone" value=""> </property>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob">

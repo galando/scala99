@@ -19,12 +19,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="scala-compiler" level="application" />
-    <orderEntry type="library" name="scala-library" level="application" />
     <orderEntry type="library" scope="TEST" name="Maven: org.scalatest:scalatest_2.10:1.9.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.scala-lang:scala-library:2.10.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.scala-lang:scala-actors:2.10.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.scala-lang:scala-reflect:2.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang:scala-compiler-bundle:2.10.1" level="project" />
   </component>
 </module>
 
