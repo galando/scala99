@@ -1,7 +1,7 @@
 import java.util.NoSuchElementException
 import main.scala.Solutions1To10
 import org.scalatest.matchers.ShouldMatchers
-import org.scalatest.{FlatSpec, FunSuite}
+import org.scalatest.{Matchers, FlatSpec, FunSuite}
 import org.scalatest.junit.JUnitRunner
 
 
@@ -12,7 +12,7 @@ import org.scalatest.junit.JUnitRunner
  * Time: 5:58 PM
  * To change this template use File | Settings | File Templates.
  */
-class Tests1To10 extends FlatSpec with ShouldMatchers {
+class Tests1To10 extends FlatSpec with Matchers {
   "P01" should "returns last element of list" in {
     Solutions1To10.last(List(1, 2, 3)) should equal(3)
     Solutions1To10.last(List('x')) should equal('x')
@@ -53,11 +53,11 @@ class Tests1To10 extends FlatSpec with ShouldMatchers {
     Solutions1To10.flatten(List(List(1, 1), 2, List(3, List(5, 8)))) should equal (List(1, 1, 2, 3, 5, 8))
   }
 
-  /*test("P08 -- compress") {
-    assert(compress(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) == List('a, 'b, 'c, 'a, 'd, 'e))
+  "P08" should "compress" in {
+    Solutions1To10.compress(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) == List('a, 'b, 'c, 'a, 'd, 'e)
   }
 
-  test("P09 -- pack") {
+  /*test("P09 -- pack") {
     assert(pack(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) == List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e)))
   }
 
