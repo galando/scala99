@@ -4,7 +4,8 @@
     <facet type="scala" name="Scala">
       <configuration>
         <option name="compilerLibraryLevel" value="Project" />
-        <option name="compilerLibraryName" value="Maven: org.scala-lang:scala-compiler-bundle:2.11.0" />
+        <option name="compilerLibraryName" value="scala-compiler (1)" />
+        <option name="languageLevel" value="Scala 2.11" />
       </configuration>
     </facet>
   </component>
@@ -18,13 +19,29 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.scalatest:scalatest_2.11:2.1.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.scalatest:scalatest_2.11:2.1.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.scala-lang:scala-library:2.11.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.scala-lang:scala-reflect:2.11.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.scala-lang.modules:scala-xml_2.11:1.0.1" level="project" />
-    <orderEntry type="library" name="" level="project" />
+    <orderEntry type="library" name="Maven: org.scalatest:scalatest-maven-plugin:1.0-M2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-plugin-api:2.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-project:2.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-settings:2.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-model:2.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-utils:3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" name="Maven: classworlds:classworlds:1.1-alpha-2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-profile:2.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact-manager:2.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-repository-metadata:2.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact:2.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.wagon:wagon-provider-api:1.0-beta-2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-plugin-registry:2.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.reporting:maven-reporting-api:2.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.doxia:doxia-sink-api:1.0" level="project" />
+    <orderEntry type="library" name="scala-library (1)" level="project" />
   </component>
-  <component name="POM File Configuration" pomFile="" />
 </module>
 
