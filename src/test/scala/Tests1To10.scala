@@ -1,8 +1,6 @@
 import java.util.NoSuchElementException
 import main.scala.Solutions1To10
-import org.scalatest.matchers.ShouldMatchers
-import org.scalatest.{Matchers, FlatSpec, FunSuite}
-import org.scalatest.junit.JUnitRunner
+import org.scalatest.{Matchers, FlatSpec}
 
 
 /**
@@ -29,9 +27,9 @@ class Tests1To10 extends FlatSpec with Matchers {
     Solutions1To10.nth(2, List(1, 1, 2, 3, 5, 8)) should equal(2)
   }
   it should "throw NoSuchElementException if n > num of elements in list" in {
-    evaluating {
+    an [NoSuchElementException] should be thrownBy {
       Solutions1To10.nth(2, List(1, 1))
-    } should produce[NoSuchElementException]
+    }
   }
 
   "P04" should "length of a list" in {
@@ -57,11 +55,11 @@ class Tests1To10 extends FlatSpec with Matchers {
     Solutions1To10.compress(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) == List('a, 'b, 'c, 'a, 'd, 'e)
   }
 
-  /*test("P09 -- pack") {
-    assert(pack(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) == List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e)))
+  "P09" should "pack" in {
+    Solutions1To10.pack(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) == List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e))
   }
 
-  test("P10 -- encode") {
+  /*test("P10 -- encode") {
     assert(encode(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) == List((4, 'a), (1, 'b), (2, 'c), (2, 'a), (1, 'd), (4, 'e)))
   } */
 }

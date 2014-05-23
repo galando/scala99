@@ -13,6 +13,10 @@ import scala.annotation.tailrec
  */
 object Solutions1To10 {
 
+  def main(args: Array[String]) {
+    System.out.println(pack(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)))
+  }
+
   // P01
   @tailrec
   def last[T](list: List[T]): T = list match {
@@ -69,5 +73,16 @@ object Solutions1To10 {
   def compress[T](list: List[T]) : List[T] = list match {
     case Nil => Nil
     case x :: xs => x :: compress(xs.dropWhile(_ == x))
+  }
+
+  // P09
+  def pack[Symbol](list: List[Symbol]) : List[Symbol] = list match {
+    case Nil => Nil
+    case x::_ => packAcc(list,List(),x)
+  }
+
+  def packAcc[Symbol](list: List[Symbol], acc: List[Symbol], sym: Symbol) : List[Symbol] = list match {
+    case Nil => Nil
+    case x::xs => if (x == sym) packAcc(xs,x::acc,sym) else acc
   }
 }
